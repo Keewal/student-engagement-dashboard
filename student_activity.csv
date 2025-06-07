@@ -1,0 +1,6 @@
+student_id,module_id,last_login,completion_percentage
+101,Module 1,2025-06-04,80
+102,Module 2,2025-05-29,20
+103,Module 1,2025-06-06,90
+104,Module 3,2025-05-31,10
+105,Module 4,2025-06-01,0

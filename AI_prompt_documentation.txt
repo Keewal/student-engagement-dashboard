@@ -1,0 +1,11 @@
+## AI Prompt Documentation
+
+**Prompt to ChatGPT:**
+"Give me Python code to read a student activity CSV, calculate engagement rate (completion >50%) and drop-off rate (<30%), and display both in a Streamlit dashboard. Also add a bar chart of completion % by module. Finally, write an AI suggestion that identifies students at risk and suggests personalized re-engagement."
+
+**Refinement Prompt:**
+"Add logic to flag students inactive for more than 5 days and completion under 30%. Suggest they take the quiz of their current module."
+
+**Enhancements Made:**
+- Added `days_inactive` calculation.
+- Used `st.metric`, `st.bar_chart`, and `st.button` in Streamlit.
